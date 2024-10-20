@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+
+body{
+    background-image: url('/images/colourBG.jpeg');
+    margin: 20px;
+}
+
+
+nav {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: start;
+    border-bottom: 2px solid #eb8181;
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    width: 100vw;
+    box-sizing: border-box; /* Include padding and border in the element's width */
+    margin: 0; /* Remove default margins */
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:#eb8181;
+}
+
+
+nav ul{
+    list-style-type: none; 
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+main {
+    display: block;
+    background-color: blanchedalmond;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0; /* Removes default padding */
+    margin: 10px; /* Removes default margin */
+
+}
+
+main ol {
+    padding: 3px; /* Removes default padding */
+    margin: 20px; /* Removes default margin */
+    
+}
